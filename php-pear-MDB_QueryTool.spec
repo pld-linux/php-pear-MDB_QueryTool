@@ -1,9 +1,10 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          MDB
-%define         _subclass       QueryTool
+%define		_class		MDB
+%define		_subclass	QueryTool
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_pearname} - An OO-interface for easily retrieving and modifying data in a DB
+
+Summary:	%{_pearname} - an OO-interface for easily retrieving and modifying data in a DB
 Summary(pl):	%{_pearname} - obiektowy interfejs do odczytywania i modyfikowania danych w DB
 Name:		php-pear-%{_pearname}
 Version:	0.9.6
