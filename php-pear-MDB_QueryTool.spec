@@ -3,8 +3,8 @@
 %define         _subclass       QueryTool
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_pearname} - An OO-interface for easily retreiving and modifying data in a DB
-Summary(pl):	%{_pearname}
+Summary:	%{_pearname} - An OO-interface for easily retrieving and modifying data in a DB
+Summary(pl):	%{_pearname} - obiektowy interfejs do odczytywania i modyfikowania danych w DB
 Name:		php-pear-%{_pearname}
 Version:	0.9
 Release:	1
@@ -31,6 +31,15 @@ DB_QueryTool written by Wolfram Kriesing and Paolo Panto
 This class has in PEAR status: %{_status}.
 
 %description -l pl
+Ten pakiet to obiektowo zorientowana abstrakcja dla jêzyka zapytañ
+SQL, udostêpniaj±ca metody takie jak setWhere, setOrder, setGroup,
+setJoin itp. do ³atwego tworzenia zapytañ. Udostêpnia on tak¿e ³atwy
+do nauczenia siê interfejs wspó³pracuj±cy z HTML-forms przy u¿yciu
+tablic zawieraj±cych dane z kolumn, które maj± byæ uaktualnione/dodane
+do bazy. Ten pakiet bazuje na SQL-Builderze, który pozwala na ³atwe
+tworzenie i wykonywanie instrukcji SQL. Ta klasa jest portem z
+oryginalnej DB_QueryTool napisanej przez Wolframa Kriesinga i Paolo
+Panto (vision:produktion, wk@visionp.de).
 
 Ta klasa ma w PEAR status: %{_status}.
 
