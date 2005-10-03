@@ -8,14 +8,17 @@ Summary:	%{_pearname} - an OO-interface for easily retrieving and modifying data
 Summary(pl):	%{_pearname} - obiektowy interfejs do odczytywania i modyfikowania danych w DB
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
-Release:	1.1
+Release:	1.2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	ef9b19407ef62ea27695d2bcabe30dd0
 URL:		http://pear.php.net/package/MDB_QueryTool/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+Requires:	php-common >= 3:4.1
 Requires:	php-pear
+Requires:	php-pear-MDB
+Requires:	php-pear-Log >= 1.7
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
