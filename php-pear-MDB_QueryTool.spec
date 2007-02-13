@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - an OO-interface for easily retrieving and modifying data in a DB
-Summary(pl.UTF-8):   %{_pearname} - obiektowy interfejs do odczytywania i modyfikowania danych w DB
+Summary(pl.UTF-8):	%{_pearname} - obiektowy interfejs do odczytywania i modyfikowania danych w DB
 Name:		php-pear-%{_pearname}
 Version:	1.1.1
 Release:	1
@@ -56,7 +56,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
