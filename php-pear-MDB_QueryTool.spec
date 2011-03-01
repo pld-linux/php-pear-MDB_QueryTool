@@ -7,7 +7,7 @@ Summary:	%{_pearname} - an OO-interface for easily retrieving and modifying data
 Summary(pl.UTF-8):	%{_pearname} - obiektowy interfejs do odczytywania i modyfikowania danych w DB
 Name:		php-pear-%{_pearname}
 Version:	1.2.2
-Release:	2
+Release:	3
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
