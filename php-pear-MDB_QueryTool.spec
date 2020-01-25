@@ -1,6 +1,5 @@
 %define		_status		stable
 %define		_pearname	MDB_QueryTool
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - an OO-interface for easily retrieving and modifying data in a DB
 Summary(pl.UTF-8):	%{_pearname} - obiektowy interfejs do odczytywania i modyfikowania danych w DB
 Name:		php-pear-%{_pearname}
